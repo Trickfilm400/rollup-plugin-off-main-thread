@@ -31,9 +31,12 @@
     "url": "https://github.com/trickfilm400/rollup-plugin-off-main-thread"
   },
   "dependencies": {
-    "ejs": "^3.1.6",
-    "json5": "^2.2.0",
-    "magic-string": "^0.25.0",
-    "string.prototype.matchall": "^4.0.6"
+    "ejs": "^3.1.10",
+    "json5": "^2.2.3",
+    "magic-string": "^0.30.10",
+    "string.prototype.matchall": "^4.0.11"
+  },
+  "engines": {
+    "node": ">=12"
   }
 }
