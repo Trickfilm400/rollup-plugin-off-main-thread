@@ -1,6 +1,6 @@
 {
   "name": "@trickfilm400/rollup-plugin-off-main-thread",
-  "version": "2.2.3",
+  "version": "2.2.3-fix",
   "description": "Use Rollup with workers and ES6 modules today.",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,9 @@
     "test": "node ./run_tests.js"
   },
   "author": "Surma <surma@google.com>",
-  "contributors": ["trickfilm400 <trickfilm400@gmail.com>"],
+  "contributors": [
+    "trickfilm400 <trickfilm400@gmail.com>"
+  ],
   "license": "Apache-2.0",
   "devDependencies": {
     "chai": "4.2.0",
