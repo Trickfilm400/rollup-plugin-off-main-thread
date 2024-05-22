@@ -257,7 +257,7 @@ This will become a hard error in the future.`,
 
       if (outputOptions.banner && outputOptions.banner.length > 0) {
         this.error(
-          "OMT currently doesn’t work with `banner`. Feel free to submit a PR at https://github.com/surma/rollup-plugin-off-main-thread"
+          "OMT currently doesn’t work with `banner`. Feel free to submit a PR at https://github.com/trickfilm400/rollup-plugin-off-main-thread"
         );
         return;
       }
