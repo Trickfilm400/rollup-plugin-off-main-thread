@@ -1,6 +1,6 @@
 {
   "name": "@trickfilm400/rollup-plugin-off-main-thread",
-  "version": "2.2.3-fix",
+  "version": "2.3.0",
   "description": "Use Rollup with workers and ES6 modules today.",
   "main": "index.js",
   "scripts": {
