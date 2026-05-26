@@ -3,3 +3,7 @@ renovate.json
 .idea/
 .github/workflows/*
 CODEOWNERS
+CONTRIBUTING
+tests/
+run_tests.js
+karma.conf.js
