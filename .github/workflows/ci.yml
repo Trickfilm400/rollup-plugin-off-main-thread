@@ -2,6 +2,15 @@ name: Release
 
 on:
   workflow_dispatch:
+    inputs:
+      tag:
+        type: choice
+        description: Select npm publish tag
+        required: true
+        default: beta
+        options:
+          - latest
+          - beta
   release:
     types:
       - published
@@ -25,7 +34,12 @@ jobs:
      # - run: npm run build
       #- run: npm version prerelease --no-git-tag-version --preid ${{ github.ref_name }}-${{ github.sha }} (using self-versioned package.json from now on)
       #### PUBLISH TO NPM ####
-      - run: npm stage publish
+      - if: ${{ github.event.inputs.tag }}
+        name: publish to given npm tag
+        run: npm stage publish --tag ${{ github.event.inputs.tag }}
+      - if: ${{ !github.event.inputs.tag }}
+        name: publish latest if no input tag is given
+        run: npm stage publish
       #### PUBLISH TO GITHUB NPM ####
       - uses: JS-DevTools/npm-publish@v4
         with:
