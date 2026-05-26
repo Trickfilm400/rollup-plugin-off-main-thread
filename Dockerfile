@@ -9,9 +9,9 @@ RUN apt-get update -qqy \
 
 ENV NVM_DIR /usr/local/nvm
 RUN mkdir -p $NVM_DIR \
-  && wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.35.2/install.sh | bash \
+  && wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.4/install.sh | bash \
   && source $NVM_DIR/nvm.sh \
-  && nvm install v12
+  && nvm install v22
 
 ENV CHROME_BIN /opt/google/chrome/chrome
 ENV INSIDE_DOCKER=1
