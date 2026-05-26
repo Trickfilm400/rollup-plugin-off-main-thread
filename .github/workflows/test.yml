@@ -10,6 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     container:
       image: selenium/node-chrome:latest
+      # use root due to installing stuff and more
+      options: --user root
       env:
         CHROME_BIN: /opt/google/chrome/chrome
         INSIDE_DOCKER: 1
