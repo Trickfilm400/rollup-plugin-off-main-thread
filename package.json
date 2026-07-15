@@ -23,8 +23,8 @@
     "karma-safari-launcher": "1.0.0",
     "karma-safaritechpreview-launcher": "2.0.2",
     "mocha": "^11.7.6",
-    "prettier": "^3.8.3",
-    "rollup": "^4.60.4"
+    "prettier": "^3.9.5",
+    "rollup": "^4.62.2"
   },
   "repository": {
     "type": "git",
