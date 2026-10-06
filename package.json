@@ -22,16 +22,16 @@
     "karma-mocha": "^2.0.1",
     "karma-safari-launcher": "1.0.0",
     "karma-safaritechpreview-launcher": "2.0.2",
-    "mocha": "^11.7.6",
-    "prettier": "^3.9.5",
-    "rollup": "^4.62.2"
+    "mocha": "^12.0.3",
+    "prettier": "^3.9.9",
+    "rollup": "^4.64.0"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Trickfilm400/rollup-plugin-off-main-thread.git"
   },
   "dependencies": {
-    "ejs": "^6.0.1",
+    "ejs": "^7.0.1",
     "json5": "^2.2.3",
     "magic-string": "^0.30.21"
   },
